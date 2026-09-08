@@ -18,7 +18,7 @@
 ----------------------------------------------------------------------------
 ## 📌 Project Overview
 
-This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing activities can be performed safely and repeatedly.
+This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing [...]
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing
 
 ---------------------------------------------------------------------------------------
@@ -54,7 +54,8 @@ Security-tool experimentation
 
 ## 🏗️ **Lab Architecture**
 
-![Architecture](Screenshot 1)
+![Architecture](Screenshot%201)
+
 Additional target machines can be added to the same virtual network in future projects.
 -----------------------------------------------------------------------------------------
 
@@ -103,13 +104,3 @@ A dedicated NAT Network was created in VirtualBox.
 A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
 This will allow future attacker and target VMs to communicate within the lab.
-
-
-
-
-
-
-
-
-
-
