@@ -50,12 +50,57 @@ Web security testing
 Exploitation practice
 Security-tool experimentation
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
-## 🏗️ Lab Architecture
-
-![Lab Architecture](1-screenshot-title-image.png)
+## 🏗️ **Lab Architecture**
+![Architecture](Screenshot 1.png)
 
 Additional target machines can be added to the same virtual network in future projects.
 -----------------------------------------------------------------------------------------
+
+## ⚙️ Lab Configuration
+
+| 🧩 Component | ⚙️ Configuration |
+| :--- | :--- |
+| 🖥️ Host OS | Windows 11 |
+| 🧠 Host RAM | 8 GB |
+| ⚡ Processor | Intel Core i7 |
+| 🧰 Hypervisor | VirtualBox 7.2 |
+| 🐉 Security OS | Kali Linux 2026.2 |
+| 🧠 Kali RAM | 2048 MB |
+| 🌐 Virtual Network | NAT Network |
+| 📡 Network Address | 10.0.0.0/24 |
+| 🐧 Kali IP Address | 10.0.0.2/24 |
+| 🚪 Default Gateway | 10.0.0.1 |
+| 🌍 DNS Server | 8.8.8.8 | or  | 10.0.0.1 |
+| 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+
+---
+
+**# 🪜 Lab Setup Procedure**
+
+## Step 1. Install 7-Zip
+7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
+
+**Tool:** 7-Zip
+
+---
+
+## Step 2. Install VirtualBox
+VirtualBox was installed as the hypervisor.
+
+---
+
+## Step 3. Create the NAT Network
+A dedicated NAT Network was created in VirtualBox.
+
+**Configuration:**
+- **Network Name:** NatNetwork
+- **IPv4 Prefix:** 10.0.0.0/24
+- **DHCP:** Enabled
+- **IPv6:** Disabled
+
+A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
+
+This will allow future attacker and target VMs to communicate within the lab.
 
 
 
