@@ -37,8 +37,9 @@ The main objectives of this project are to:
 - Document the complete setup process.
 - Prepare the environment for future cybersecurity projects.
 
----
+------------------------------------------
 **## 🛡️ Purpose of the Lab**
+
 The lab aims to provide an isolated environment for cyber -security practices & learning .This lab does not  compromise the systems in unethical way.
 
 It can be used for activities such as:
@@ -50,9 +51,10 @@ Web security testing
 Exploitation practice
 Security-tool experimentation
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
-## 🏗️ **Lab Architecture**
-![Architecture](Screenshot 1.png)
 
+## 🏗️ **Lab Architecture**
+
+![Architecture](Screenshot 1)
 Additional target machines can be added to the same virtual network in future projects.
 -----------------------------------------------------------------------------------------
 
