@@ -2,10 +2,16 @@
 
 
 
-Building an isolated virtual lab for penetration testing and ethical hacking practice
-[![Cybersecurity](https://img.shields.io/badge/Skill-Cybersecurity-red)](https://github.com)    ( https://img.shields.io/badge/Vertualbox v7.2-grey)](https://github.com) ( https://img.shields.io/badge/skill-Linux-red)](https://github.com) (  https://img.shields.io/badge/Network 10.0.0.0/24-Blue)](https://github.com)   https://img.shields.io/badge/Penetration Testing-red)](https://github.com) 
-     ( https://img.shields.io/badge/Skill-Vertualisation-red)](https://github.com)     (https://img.shields.io/badge/Git hub-Grey)](https://github.com) 
-      (https://img.shields.io/badge/Kali Linux-red)](https://github.com)     (  https://img.shields.io/badge/NetworkWalks-Grey)](https://github.com) 
-      (https://img.shields.io/badge/Ethical hacking-red)](https://github.com) 
-   Kali Linux    NetworkWalks    Ethical Hacking      ANJU
+##**Building an isolated virtual lab for penetration testing and ethical hacking practice**
+![Cybersecurity](https://img.shields.io/badge/Skill-Cybersecurity-red)
+![Virtualbox](https://img.shields.io/badge/Ver-Virtualbox%20v7.2-0078D7?logo=virtualbox)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-v2026.2-black?logo=kalilinux)
+![Linux](https://img.shields.io/badge/Skill-Linux-E95420)
+![Network](https://img.shields.io/badge/Network-10.0.0.0/24-008080)
+![Penetration Testing](https://img.shields.io/badge/Penetration%20Testing-crimson?logo=hackthebox)
+![Virtualization](https://img.shields.io/badge/Skill-Virtualization-purple)
+![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)
+![NetworkWalks](https://img.shields.io/badge/NetworkWalks-darkslategray)
+![Ethical Hacking](https://img.shields.io/badge/Ethical%20Hacking-darkorange)
+![Author](https://img.shields.io/badge/ANJU%20-red)
 
