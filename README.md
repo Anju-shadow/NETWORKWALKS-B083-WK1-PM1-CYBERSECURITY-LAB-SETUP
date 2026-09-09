@@ -85,14 +85,25 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 1. Install 7-zip 
 ![7-zip](Screenshot-2.png)
 
-This compression software  installed to compress the documents and programs so that they take less space and could be transported easily.  The software was required because the downloaded Kali Linux virtual machine package was highly compressed and needed to be extracted before it could be imported and used in Oracle VirtualBox.
+**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios.
 
-**Tool:**  7-zip
+**Why It's Needed:** The downloaded Kali Linux ISO file is large and needs to be compressed for efficient storage and transfer. 7-zip allows us to compress the ISO and other files to save disk space and bandwidth.
+
+**Installation Steps:**
+1. Download 7-zip from the official website (https://www.7-zip.org/)
+2. Run the installer and follow the setup wizard
+3. Accept the default installation path (typically `C:\Program Files\7-Zip`)
+4. Complete the installation
+
+**Tool:** 7-zip
+**Version:** Latest stable
+**File Format Support:** .7z, .zip, .rar, .tar, .gzip, .bzip2, and many others
+**Use Case:** Compress Kali Linux ISO and other lab resources
 
 ---
 
 ## Step 2. Install VirtualBox
-Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required for operating systems like  Kali Linux /windows and other virtual machines on the host computer.
+Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required for ope[...]
 
 ---
 
