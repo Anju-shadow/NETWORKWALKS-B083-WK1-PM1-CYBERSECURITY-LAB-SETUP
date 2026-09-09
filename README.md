@@ -82,10 +82,10 @@ Additional target machines can be added to the same virtual network in future pr
 
 **# 🪜 Lab Setup Procedure**
 
-## Step 1. Install Win-zip 
-This compression software  installed to compress the documents and programs so that they take less space and could be transported easily.  The software was required because the downloaded Kali Linux virtual machine package was highly compressed and needed to be extracted before it could be imported and used in Oracle VirtualBox.[Either use 7-zip it is also prefferabel].
+## Step 1. Install 7-zip 
+This compression software  installed to compress the documents and programs so that they take less space and could be transported easily.  The software was required because the downloaded Kali Linux virtual machine package was highly compressed and needed to be extracted before it could be imported and used in Oracle VirtualBox.
 
-**Tool:** Win -zip
+**Tool:**  7-zip
 
 ---
 
