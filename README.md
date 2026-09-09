@@ -83,7 +83,7 @@ Additional target machines can be added to the same virtual network in future pr
 **# 🪜 Lab Setup Procedure**
 
 ## Step 1. Install 7-zip 
-![Architecture](Screenshot-2.png.png%201)
+![7-zip](Screenshot-2.png)
 
 This compression software  installed to compress the documents and programs so that they take less space and could be transported easily.  The software was required because the downloaded Kali Linux virtual machine package was highly compressed and needed to be extracted before it could be imported and used in Oracle VirtualBox.
 
