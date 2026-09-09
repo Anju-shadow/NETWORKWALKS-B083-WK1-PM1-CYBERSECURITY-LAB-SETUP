@@ -82,27 +82,27 @@ Additional target machines can be added to the same virtual network in future pr
 
 **# 🪜 Lab Setup Procedure**
 
-## Step 1. Install Win11 
-win was installed to extract the Kali Linux virtual-machine package, The software was required because the downloaded Kali Linux virtual machine package was highly compressed and needed to be extracted before it could be imported and used in Oracle VirtualBox.
+## Step 1. Install Win-zip 
+This compression software  installed to compress the documents and programs so that they take less space and could be transported easily.  The software was required because the downloaded Kali Linux virtual machine package was highly compressed and needed to be extracted before it could be imported and used in Oracle VirtualBox.[Either use 7-zip it is also prefferabel].
 
-**Tool:** Win11
+**Tool:** Win -zip
 
 ---
 
 ## Step 2. Install VirtualBox
-VirtualBox was installed as the hypervisor.
+Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required for operating systems like  Kali Linux /windows and other virtual machines on the host computer.
 
 ---
 
 ## Step 3. Create the NAT Network
-A dedicated NAT Network was created in VirtualBox.
 
+A standalone NAT Network was configured inside Oracle VirtualBox .
 **Configuration:**
 - **Network Name:** NatNetwork
 - **IPv4 Prefix:** 10.0.0.0/24
 - **DHCP:** Enabled
 - **IPv6:** Disabled
 
-A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
+A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with each other while also having external network connectivity.
 
 This will allow future attacker and target VMs to communicate within the lab.
