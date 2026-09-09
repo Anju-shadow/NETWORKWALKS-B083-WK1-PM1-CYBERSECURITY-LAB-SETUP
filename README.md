@@ -38,7 +38,7 @@ The main objectives of this project are to:
 - Prepare the environment for future cybersecurity projects.
 
 ------------------------------------------
-**## 🛡️ Purpose of the Lab**
+## 🛡️ Purpose of the Lab
 
 The lab aims to provide an isolated environment for cyber -security practices & learning .This lab does not  compromise the systems in unethical way.
 
@@ -50,7 +50,9 @@ Packet analysis
 Web security testing
 Exploitation practice
 Security-tool experimentation
-⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
+
+⚠️ Important: This laboratory must only be conducted only for systems that are personaly owned  or have explicit permission granted by  the authorisation to test. 
+
 
 ## 🏗️ **Lab Architecture**
 
@@ -80,10 +82,10 @@ Additional target machines can be added to the same virtual network in future pr
 
 **# 🪜 Lab Setup Procedure**
 
-## Step 1. Install 7-Zip
-7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
+## Step 1. Install Win11 
+win was installed to extract the Kali Linux virtual-machine package, The software was required because the downloaded Kali Linux virtual machine package was highly compressed and needed to be extracted before it could be imported and used in Oracle VirtualBox.
 
-**Tool:** 7-Zip
+**Tool:** Win11
 
 ---
 
