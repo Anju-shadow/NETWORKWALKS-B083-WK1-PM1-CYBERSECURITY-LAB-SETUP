@@ -58,19 +58,19 @@ Security-tool experimentation
 
        HOST COMPUTER
          |
-        ::DOWNWARD ARROW::
+        ⬇️
         Virtual box
           |
-          ::DOWNWARD ARROW::
+          ⬇️
           Nat network
             |
             10.0.0.0/24
             |
-            ::Downward arrow::
+            ⬇️
             Kali Linux
              |
-             ::Downward arrow::
-             10.0.0.0/24
+             ⬇️
+             10.0.0.24
          
         
 
@@ -101,14 +101,15 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 1. Install 7-zip 
 ![7-zip](Screenshot-2.png)
 
-**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large programs and documents.
+**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large [...]
+
 
 
 **Tool:** 7-zip
 ---
 
 ## Step 2. Install VirtualBox
-Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required for operating systems like Kali Linux and windows or other systems.
+Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required fo[...]
 
 ---
 
