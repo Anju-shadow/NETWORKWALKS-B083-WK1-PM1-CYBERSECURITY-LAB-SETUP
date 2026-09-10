@@ -57,23 +57,18 @@ Security-tool experimentation
 ## 🏗️ **Lab Architecture**
 
        HOST COMPUTER
-         |
-        ⬇️
-        Virtual box
-          |
           ⬇️
-          Nat network
-            |
-            10.0.0.0/24
-            |
-            ⬇️
-            Kali Linux
-             |
-             ⬇️
-             10.0.0.24
+        Virtual box
+          ⬇️
+        Nat network
+          ⬇️
+       10.0.0.0/24
+           ⬇️
+        Kali Linux
+           ⬇️
+        10.0.0.24
          
         
-
 Additional target machines can be added to the same virtual network in future projects.
 -----------------------------------------------------------------------------------------
 
