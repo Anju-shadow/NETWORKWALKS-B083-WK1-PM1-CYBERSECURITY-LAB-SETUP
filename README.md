@@ -56,7 +56,23 @@ Security-tool experimentation
 
 ## 🏗️ **Lab Architecture**
 
-![Architecture](Screenshot%201)
+       HOST COMPUTER
+         |
+        ::DOWNWARD ARROW::
+        Virtual box
+          |
+          ::DOWNWARD ARROW::
+          Nat network
+            |
+            10.0.0.0/24
+            |
+            ::Downward arrow::
+            Kali Linux
+             |
+             ::Downward arrow::
+             10.0.0.0/24
+         
+        
 
 Additional target machines can be added to the same virtual network in future projects.
 -----------------------------------------------------------------------------------------
