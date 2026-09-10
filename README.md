@@ -96,7 +96,7 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 1. Install 7-zip 
 ![7-zip](Screenshot-2.png)
 
-**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large [...]
+**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large [[...]
 
 
 
@@ -116,6 +116,8 @@ A standalone NAT Network was configured inside Oracle VirtualBox .
 - **IPv4 Prefix:** 10.0.0.0/24
 - **DHCP:** Enabled
 - **IPv6:** Disabled
+
+![NAT Network Configuration](Screenshot%20-3.png)
 
 A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with each other while also having external network connectivity.
 
