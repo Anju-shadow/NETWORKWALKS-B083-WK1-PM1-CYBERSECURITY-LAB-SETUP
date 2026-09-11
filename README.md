@@ -148,3 +148,5 @@ Now by edit connction ➡️Wired connection
            Subnet mask-24  
            Gateway: 10.0.0.1
            DNS: 8.8.8.8
+
+![Kali Linux Network Configuration Step 6](Screenshot%20-6.png)
