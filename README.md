@@ -18,7 +18,7 @@
 ----------------------------------------------------------------------------
 ## 📌 Project Overview
 
-This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing [...]
+This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing [...[...]
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing
 
 ---------------------------------------------------------------------------------------
@@ -96,7 +96,7 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 1. Install 7-zip 
 ![7-zip](Screenshot-2.png)
 
-**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large f[...]
+**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large f[...[...]
 
 **Tool:** 7-zip
 ---
@@ -123,7 +123,7 @@ This will allow future attacker and target VMs to communicate within the lab.
 --------------------
 ## Step 4. Import Kali Linux
 
-Now, let's import Kali Linux from the official website of kali org. The Kali Linux acts as an attacking machine. It is best to download the latest version according to the hypervisor VirtualBox system.
+Now, let's import Kali Linux from the official website of kali org. The Kali Linux acts as an attacking machine. It is best to download the latest version according to the hypervisor VirtualBox s[...]
 
 ### VM Adapter Network Configuration:
 
@@ -158,13 +158,16 @@ I started my Kali in VM today .(Anything could be written here)
 The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+
+![VM Snapshot Creation Step 6](Screenshot%20-7.png)
+
 --------------------------------------------------------------------------------------------------------------
 🐛**Problem I encountered and how i solved it?**
 Documenting the problem we faces in setup is vital part of the project.
 PROBLEM 1 :- setup of VM machine.
-During setting up vertual box i encountered problem as i was confused in the official website which host should be downloaded.and was not able to find the network manager as it was new version 2026 launched so,i found it at media option.
+During setting up vertual box i encountered problem as i was confused in the official website which host should be downloaded.and was not able to find the network manager as it was new version 2026 la[...]
 PROBLEM 2:- Import kali linux
-During extraction i was not able to see the difference b/w kali zip v/s 7.zip .and was not able to add this to my vm .My storage was also not enough to extract the file however i  uninstall the kali and then again i did step by step every phase of the lab setup .Finally i successfully import and extracted the virtual kali linux in my hypervisor.
+During extraction i was not able to see the difference b/w kali zip v/s 7.zip .and was not able to add this to my vm .My storage was also not enough to extract the file however i  uninstall the kali a[...]
 
 💡**What i learnt?**
 I learn the diffrence b/w VM and Virtual box hypervisor and its extension package.
@@ -177,5 +180,3 @@ I understand how it is important for a cyber security professionals to document 
 
 🔐 Security and Ethical Use:-
 This laboratory is strictly used for Educational perpose only.
-
-
