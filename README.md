@@ -124,14 +124,17 @@ A *NAT Network* was selected because multiple virtual machines connected to the 
 This will allow future attacker and target VMs to communicate within the lab.
 --------------------
 ## Step 4. Import Kali Linux
-Now ,Lets Import kali linux from official website of kaliorg. The kali linux act as attacking machine.It is best to download new version and download according to the  hypervisor virtual box system.
 
-The VM adapter network configuration:-
-Adapter 1
-Attached to: NAT Network
-Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop
+Now, let's import Kali Linux from the official website of kaliorg. The Kali Linux acts as an attacking machine. It is best to download the new version according to the hypervisor VirtualBox system.
 
-Ram :  2048MB[2GB]
+### VM Adapter Network Configuration:
 
+| Configuration Item | Value |
+| :--- | :--- |
+| **Adapter** | Adapter 1 |
+| **Attached to** | NAT Network |
+| **Network** | NatNetwork |
+| **Adapter Type** | Intel PRO/1000 MT Desktop |
+| **RAM** | 2048 MB (2GB) |
 
+---
