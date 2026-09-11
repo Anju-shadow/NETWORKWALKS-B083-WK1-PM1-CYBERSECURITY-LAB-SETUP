@@ -149,3 +149,21 @@ The Kali Linux network configuration was checked and configured with a consisten
 - DNS: 8.8.8.8
 
 ![Kali Linux Network Configuration Step 5](Screenshot%20-6.png)
+--------------------------------------------------------------------
+## Step 6.  Take VM  Snapshot .
+After completing the initial configuration, a VirtualBox snapshot was created.
+
+Example snapshot name:
+
+I started my Kali in VM today .(Anything could be written here)
+The snapshot represents the clean baseline of the laboratory.
+
+If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+--------------------------------------------------------------------------------------------------------------
+🐛**Problem I encountered and how i solved it?**
+Documenting the problem we faces in setup is vital part of the project.
+PROBLEM 1 :- setup of VM machine.
+During setting up vertual box i encountered problem as i was confused in the official website which host should be downloaded and extension should also downloaded or not and then i was not able to see the network manager and then i try to find ,delete again and again .FInaly i found it in the media option that i have to enable as it was 2026 new version vm machine so some features were move to other part of the vm .
+PROBLEM 2:- Import kali linux
+During extraction i was not able to see the difference b/w kali zip v/s 7.zip .and was not able to add this to my vm .My storage was also not enough to extract the file however i  uninstall the kali vm +unnecessary files and started again to do step wise step with fresh .I successfully imported it in my virtual box.
+
