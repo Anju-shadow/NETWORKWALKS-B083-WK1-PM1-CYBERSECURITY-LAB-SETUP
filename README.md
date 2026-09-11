@@ -133,6 +133,8 @@ A *NAT Network* was selected because multiple virtual machines connected to the 
 
 Kali Linux was imported from the official Kali organization website. Kali Linux acts as the attacking machine. It is best to download the latest version compatible with the VirtualBox hypervisor.
 
+![Kali Linux Import](Screenshot%20-4.png)
+
 **VM Adapter Network Configuration:**
 
 | Configuration Item | Value |
