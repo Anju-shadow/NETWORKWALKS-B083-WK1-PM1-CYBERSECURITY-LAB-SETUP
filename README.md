@@ -18,7 +18,7 @@
 ----------------------------------------------------------------------------
 ## 📌 Project Overview
 
-This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing [...]
+This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing [...[...]
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing
 
 ---------------------------------------------------------------------------------------
@@ -96,7 +96,7 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 1. Install 7-zip 
 ![7-zip](Screenshot-2.png)
 
-**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large f[...]
+**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large f[...[...]
 
 **Tool:** 7-zip
 ---
@@ -148,4 +148,4 @@ The Kali Linux network configuration was checked and configured with a consisten
 - Gateway: 10.0.0.1
 - DNS: 8.8.8.8
 
-![Kali Linux Network Configuration Step 6](Screenshot%20-6.png)
+![Kali Linux Network Configuration Step 5](Screenshot%20-6.png)
