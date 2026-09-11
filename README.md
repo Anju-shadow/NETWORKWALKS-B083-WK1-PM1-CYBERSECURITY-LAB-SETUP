@@ -18,7 +18,7 @@
 ----------------------------------------------------------------------------
 ## 📌 Project Overview
 
-This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing [...]
+This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing activities are conducted.
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing
 
 ---------------------------------------------------------------------------------------
@@ -96,15 +96,13 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 1. Install 7-zip 
 ![7-zip](Screenshot-2.png)
 
-**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large [[...]
-
-
+**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large files.
 
 **Tool:** 7-zip
 ---
 
 ## Step 2. Install VirtualBox
-Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required fo[...]
+Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required for running virtual machines.
 
 ---
 
@@ -136,5 +134,7 @@ Now, let's import Kali Linux from the official website of kaliorg. The Kali Linu
 | **Network** | NatNetwork |
 | **Adapter Type** | Intel PRO/1000 MT Desktop |
 | **RAM** | 2048 MB (2GB) |
+
+![Kali Linux Import Configuration](Screenshot-4)
 
 ---
