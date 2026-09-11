@@ -135,9 +135,9 @@ Now, let's import Kali Linux from the official website of kaliorg. The Kali Linu
 | **Adapter Type** | Intel PRO/1000 MT Desktop |
 | **RAM** | 2048 MB (2GB) |
 
-![Kali Linux Import Configuration](Screenshot-4.png)
+![Kali Linux Configuration Step 5](Screenshot%20-5.png)
 
-![Kali Linux Configuration Step 5](Screenshot-5.png)
+![Kali Linux Import Configuration](Screenshot-4.png)
 
 ---------------
 ## Step 5. Configure the Network :-
