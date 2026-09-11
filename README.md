@@ -122,3 +122,10 @@ A standalone NAT Network was configured inside Oracle VirtualBox .
 A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with each other while also having external network connectivity.
 
 This will allow future attacker and target VMs to communicate within the lab.
+--------------------
+## Step 4. Import Kali Linux
+Now ,Lets Import kali linux from official website of kaliorg. The kali linux act as attacking machine.It is best to download new version and download according to the  hypervisor virtual box system.
+
+Ram:2048MB[2GB]
+
+
