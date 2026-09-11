@@ -135,7 +135,7 @@ Now, let's import Kali Linux from the official website of kaliorg. The Kali Linu
 | **Adapter Type** | Intel PRO/1000 MT Desktop |
 | **RAM** | 2048 MB (2GB) |
 
-![Kali Linux Import Configuration](Screenshot-4.png)
+![Kali Linux Import Configuration](Screenshot%20-4.png)
 
 ---------------
 ## Step 5. Configure the Network :-
@@ -163,7 +163,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 🐛**Problem I encountered and how i solved it?**
 Documenting the problem we faces in setup is vital part of the project.
 PROBLEM 1 :- setup of VM machine.
-During setting up vertual box i encountered problem as i was confused in the official website which host should be downloaded and extension should also downloaded or not and then i was not able to see[...]
+During setting up vertual box i encountered problem as i was confused in the official website which host should be downloaded and extension should also downloaded or not and then i was not able t[...]
 PROBLEM 2:- Import kali linux
-During extraction i was not able to see the difference b/w kali zip v/s 7.zip .and was not able to add this to my vm .My storage was also not enough to extract the file however i  uninstall the kali v[...]
+During extraction i was not able to see the difference b/w kali zip v/s 7.zip .and was not able to add this to my vm .My storage was also not enough to extract the file however i  uninstall the k[...]
 
