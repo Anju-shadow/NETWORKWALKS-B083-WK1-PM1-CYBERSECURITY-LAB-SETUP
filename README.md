@@ -52,7 +52,7 @@ It can be used for activities such as:
 - Exploitation practice
 - Security tool experimentation
 
-⚠️ **Important:** This laboratory must only be conducted on systems that are personally owned or for which explicit permission has been granted by the authorized owner to test.
+⚠️ **Important:** This laboratory must only be conducted on systems that are personally owned or for which explicit permission has been granted by the authorized owner to test.It is strictly prohibitted to compromised the external syetem in unethical way.
 
 ---
 
@@ -133,7 +133,6 @@ A *NAT Network* was selected because multiple virtual machines connected to the 
 
 Kali Linux was imported from the official Kali organization website. Kali Linux acts as the attacking machine. It is best to download the latest version compatible with the VirtualBox hypervisor.
 
-![Kali Linux Import](Screenshot%20-4.png)
 
 **VM Adapter Network Configuration:**
 
@@ -153,7 +152,7 @@ Network configuration is performed through the Wired Connection settings in Kali
 
 The Kali Linux network was configured with a consistent IPv4 address:
 - **IP Address:** 10.0.0.2
-- **Subnet Mask:** /24
+- **Subnet Mask:** 255.255.255.0
 - **Gateway:** 10.0.0.1
 - **DNS:** 8.8.8.8
 
@@ -203,3 +202,14 @@ If a future exercise changes or damages the VM configuration, the machine can be
 This laboratory is strictly used for educational purposes only. All activities conducted within this lab must comply with applicable laws and regulations. Unauthorized access to computer systems is illegal.
 
 ---
+🔗 Tools & Resources
+7-Zip: https://7-zip.org/download.html
+VirtualBox: https://virtualbox.org/wiki/Downloads
+Kali Linux: https://kali.org/get-kali
+👤 Author
+Anju
+Cybersecurity Intern BO83
+
+LinkedIn: www.linkedin.com/in/anju-84b8ba394
+
+
