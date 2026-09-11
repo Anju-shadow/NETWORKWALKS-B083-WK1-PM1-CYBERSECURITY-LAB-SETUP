@@ -137,4 +137,12 @@ Now, let's import Kali Linux from the official website of kaliorg. The Kali Linu
 
 ![Kali Linux Import Configuration](Screenshot-4)
 
----
+---------------
+## Step 5. Configure the Network :-
+Now by edit connction ➡️Wired connection
+                             ↘️
+  The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+           IP Address: 10.0.0.2
+           Subnet mask-24  
+           Gateway: 10.0.0.1
+           DNS: 8.8.8.8
