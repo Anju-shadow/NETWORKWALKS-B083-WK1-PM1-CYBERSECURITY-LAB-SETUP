@@ -19,7 +19,7 @@
 
 ## 📌 Project Overview
 
-This project focuses on setting-up a controlled and isolated environment using VirtualBox and Kali Linux for hands-on practice in VAPT, scanning, cybersecurity tools, and other security testing activities. The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
+This project focuses on setting-up a controlled and isolated environment using VirtualBox and Kali Linux for hands-on practice in VAPT, scanning, cybersecurity tools, and other security testing activities. The lab is completely isolated from production networks to ensure safe experimentation and learning without risking real systems.
 
 ---
 
@@ -52,7 +52,7 @@ It can be used for activities such as:
 - Exploitation practice
 - Security tool experimentation
 
-⚠️ **Important:** This laboratory must only be conducted on systems that are personally owned or for which explicit permission has been granted by the authorized owner to test.It is strictly prohibitted to compromised the external syetem in unethical way.
+⚠️ **Important:** This laboratory must only be conducted on systems that are personally owned or for which explicit permission has been granted by the authorized owner to test.
 
 ---
 
@@ -109,7 +109,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 ### Step 2: Install VirtualBox
 
-Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required to run multiple virtual machines on a single physical host.
+Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required to run multiple virtual machines simultaneously on a single host system. The extension pack was also installed to enable USB 2.0/3.0 support and other advanced features.
 
 ---
 
@@ -125,7 +125,7 @@ A standalone NAT Network was configured inside Oracle VirtualBox.
 
 ![NAT Network Configuration](Screenshot%20-3.png)
 
-A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with each other while also having external network connectivity. This will allow future attacker and target VMs to communicate within the lab.
+A *NAT Network* was selected because multiple virtual machines connected to the same NAT Network can communicate with each other while also having external network connectivity. This will allow future lab exercises to include multiple VMs that can interact with each other while maintaining isolation from the production network.
 
 ---
 
@@ -133,6 +133,7 @@ A *NAT Network* was selected because multiple virtual machines connected to the 
 
 Kali Linux was imported from the official Kali organization website. Kali Linux acts as the attacking machine. It is best to download the latest version compatible with the VirtualBox hypervisor.
 
+![Kali Linux Import](Screenshot%20-4.png)
 
 **VM Adapter Network Configuration:**
 
@@ -199,17 +200,21 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ## 🔐 Security and Ethical Use
 
-This laboratory is strictly used for educational purposes only. All activities conducted within this lab must comply with applicable laws and regulations. Unauthorized access to computer systems is illegal.
+This laboratory is strictly used for educational purposes only. All activities conducted within this lab must comply with applicable laws and regulations. Unauthorized access to computer systems is illegal and unethical. All penetration testing and security assessments must be conducted only on systems for which explicit written permission has been obtained from the authorized owner.
 
 ---
-🔗 Tools & Resources
-7-Zip: https://7-zip.org/download.html
-VirtualBox: https://virtualbox.org/wiki/Downloads
-Kali Linux: https://kali.org/get-kali
-👤 Author
-Anju
+
+## 🔗 Tools & Resources
+
+- **7-Zip:** https://7-zip.org/download.html
+- **VirtualBox:** https://virtualbox.org/wiki/Downloads
+- **Kali Linux:** https://kali.org/get-kali
+
+---
+
+## 👤 Author
+
+**Anju**  
 Cybersecurity Intern BO83
 
-LinkedIn: www.linkedin.com/in/anju-84b8ba394
-
-
+**LinkedIn:** www.linkedin.com/in/anju-84b8ba394
