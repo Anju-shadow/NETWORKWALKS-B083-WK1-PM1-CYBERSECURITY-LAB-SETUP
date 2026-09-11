@@ -123,7 +123,7 @@ This will allow future attacker and target VMs to communicate within the lab.
 --------------------
 ## Step 4. Import Kali Linux
 
-Now, let's import Kali Linux from the official website of kaliorg. The Kali Linux acts as an attacking machine. It is best to download the new version according to the hypervisor VirtualBox syste[...]
+Now, let's import Kali Linux from the official website of kali org. The Kali Linux acts as an attacking machine. It is best to download the latest version according to the hypervisor VirtualBox system.
 
 ### VM Adapter Network Configuration:
 
@@ -135,7 +135,6 @@ Now, let's import Kali Linux from the official website of kaliorg. The Kali Linu
 | **Adapter Type** | Intel PRO/1000 MT Desktop |
 | **RAM** | 2048 MB (2GB) |
 
-![Kali Linux Import Configuration](Screenshot%20-4.png)
 
 ---------------
 ## Step 5. Configure the Network :-
@@ -163,7 +162,20 @@ If a future exercise changes or damages the VM configuration, the machine can be
 🐛**Problem I encountered and how i solved it?**
 Documenting the problem we faces in setup is vital part of the project.
 PROBLEM 1 :- setup of VM machine.
-During setting up vertual box i encountered problem as i was confused in the official website which host should be downloaded and extension should also downloaded or not and then i was not able t[...]
+During setting up vertual box i encountered problem as i was confused in the official website which host should be downloaded.and was not able to find the network manager as it was new version 2026 launched so,i found it at media option.
 PROBLEM 2:- Import kali linux
-During extraction i was not able to see the difference b/w kali zip v/s 7.zip .and was not able to add this to my vm .My storage was also not enough to extract the file however i  uninstall the k[...]
+During extraction i was not able to see the difference b/w kali zip v/s 7.zip .and was not able to add this to my vm .My storage was also not enough to extract the file however i  uninstall the kali and then again i did step by step every phase of the lab setup .Finally i successfully import and extracted the virtual kali linux in my hypervisor.
+
+💡**What i learnt?**
+I learn the diffrence b/w VM and Virtual box hypervisor and its extension package.
+I learn to differtiate b/w Nat and Nat network.
+I manage to extract the file by free-up the storage.
+I get to famillior with processors.
+I learned that a clean snapshot should be created  before performing risky or experimental activities.This provides a known-good recovery point for future cybersecurity exercises.
+I understand how it is important for a cyber security professionals to document the problems and solution ,configuration ,commands and steps in the project.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🔐 Security and Ethical Use:-
+This laboratory is strictly used for Educational perpose only.
+
 
