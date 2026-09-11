@@ -18,7 +18,7 @@
 ----------------------------------------------------------------------------
 ## 📌 Project Overview
 
-This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing activities are conducted.
+This project focuses on setting-up Controlled and isolated  environment using Virtual box & Kali Linux where Hands - on practice on VAPT ,Scanning,cyber security Tools  and other security-testing [...]
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing
 
 ---------------------------------------------------------------------------------------
@@ -68,7 +68,7 @@ Security-tool experimentation
            ⬇️
         10.0.0.24
          
-        
+         
 Additional target machines can be added to the same virtual network in future projects.
 -----------------------------------------------------------------------------------------
 
@@ -96,13 +96,13 @@ Additional target machines can be added to the same virtual network in future pr
 ## Step 1. Install 7-zip 
 ![7-zip](Screenshot-2.png)
 
-**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large files.
+**Purpose:** 7-zip is a free and open-source file archiver used for compressing and extracting files. It supports multiple compression formats and provides excellent compression ratios for large f[...]
 
 **Tool:** 7-zip
 ---
 
 ## Step 2. Install VirtualBox
-Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required for running virtual machines.
+Oracle VirtualBox 7.2 was downloaded and installed as the hypervisor for creating and managing the virtual cybersecurity laboratory. VirtualBox provides the virtualization environment required fo[...]
 
 ---
 
@@ -123,7 +123,7 @@ This will allow future attacker and target VMs to communicate within the lab.
 --------------------
 ## Step 4. Import Kali Linux
 
-Now, let's import Kali Linux from the official website of kaliorg. The Kali Linux acts as an attacking machine. It is best to download the new version according to the hypervisor VirtualBox system.
+Now, let's import Kali Linux from the official website of kaliorg. The Kali Linux acts as an attacking machine. It is best to download the new version according to the hypervisor VirtualBox syste[...]
 
 ### VM Adapter Network Configuration:
 
@@ -135,7 +135,9 @@ Now, let's import Kali Linux from the official website of kaliorg. The Kali Linu
 | **Adapter Type** | Intel PRO/1000 MT Desktop |
 | **RAM** | 2048 MB (2GB) |
 
-![Kali Linux Import Configuration](Screenshot-4)
+![Kali Linux Import Configuration](Screenshot-4.png)
+
+![Kali Linux Configuration Step 5](Screenshot-5.png)
 
 ---------------
 ## Step 5. Configure the Network :-
